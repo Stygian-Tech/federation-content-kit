@@ -2,7 +2,7 @@
 
 RSS/Atom parsing, Jetstream firehose consumption, standard.site rendering, and federation-safe public URL normalization.
 
-Depends on [atproto-primitives](../atproto-primitives).
+Depends on [atproto-primitive-kit](../atproto-primitive-kit).
 
 ## Development
 
