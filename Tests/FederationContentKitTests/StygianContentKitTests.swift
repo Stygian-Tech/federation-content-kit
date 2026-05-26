@@ -1,6 +1,6 @@
 import RssFeedKit
 import Testing
 
-@Suite struct StygianContentKitTests {
+@Suite struct FederationContentKitTests {
   @Test func rssFeedKitVersion() { #expect(RssFeedKitVersion.current == 1) }
 }
