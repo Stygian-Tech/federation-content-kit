@@ -10,7 +10,7 @@ let package = Package(
     .library(name: "StandardSiteRenderKit", targets: ["StandardSiteRenderKit"]),
     .library(name: "PublicResourceURLKit", targets: ["PublicResourceURLKit"]),
   ],
-  dependencies: [.package(path: "../atproto-primitive-kit")],
+  dependencies: [.package(url: "https://github.com/Stygian-Tech/atproto-primitive-kit.git", revision: "1105fb3c008a1048c40b9d1b71cc2cc8e51319b0")],
   targets: [
     .target(name: "RssFeedKit", dependencies: [.product(name: "ATProtoPrimitiveKit", package: "atproto-primitive-kit")], path: "Sources/RssFeedKit"),
     .target(name: "JetstreamFirehoseKit", dependencies: [.product(name: "ATProtoPrimitiveKit", package: "atproto-primitive-kit")], path: "Sources/JetstreamFirehoseKit"),
